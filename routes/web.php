@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::resource('/names', 'NameController', ['only' => [
+    'index', 'show'
+]]);
