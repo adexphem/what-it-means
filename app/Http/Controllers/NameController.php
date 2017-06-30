@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Name;
 
 class NameController extends Controller
 {
@@ -13,7 +14,9 @@ class NameController extends Controller
      */
     public function index()
     {
-        return view('names.index');
+        $status = 1; // return verified names
+        $names = Name::GetNamesByStatus($status);
+        return view('names.index', compact('names'));
     }
 
     /**

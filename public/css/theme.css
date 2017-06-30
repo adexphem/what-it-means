@@ -1,0 +1,88 @@
+.global-pad-white {
+    background: #FFFFFF;
+}
+
+.hero.isafrica {
+    background: -webkit-linear-gradient(135deg,#00b1b3,#1d5086);
+    background: linear-gradient(-45deg,#00b1b3,#220);
+    color: #fff;
+}
+
+.text-fancy {
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-text-centered {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 3rem 1.5rem;
+    text-align: center;
+    margin-top: -22px;
+}
+
+.card {
+    position: relative;
+    margin: 15px 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: rgba(254,254,254,0.3);
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    transition: box-shadow 0.5s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 3px #293737;
+    background-color: rgba(254,254,254,0.6);
+}
+
+.card-block {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-title {
+    overflow: hidden;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    border-bottom: 1px solid rgba(232,232,232,0.5);
+    height: 25px;
+}
+
+/* search bar - form section */
+form.search-wrap .fields {
+    width: 100%;
+    max-width: 700px;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+form.search-wrap .fields > span:first-child {
+
+}
+
+
+
+
+
+@media (min-width: 420px) {
+
+}

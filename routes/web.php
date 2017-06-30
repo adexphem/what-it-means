@@ -11,6 +11,14 @@
 |
 */
 
+Route::get('/', function () {
+    return redirect('/names');
+});
+
 Route::resource('/names', 'NameController', ['only' => [
     'index', 'show'
 ]]);
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
